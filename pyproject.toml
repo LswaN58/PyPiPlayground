@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypi-play"
+version = "1.0.0"
+authors = [
+   { name="Luke Swanson", email="superscription58@gmail.com" }
+]
+description = "A test package for playing with different features of Python packaging"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/LswaN58/PyPiPlayground"
+"Bug Tracker" = "https://github.com/LswaN58/PyPiPlayground/issues"
