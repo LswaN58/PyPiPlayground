@@ -3,14 +3,14 @@ requires = ["setuptools >= 61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pypi-play"
-version = "1.0.1"
+name = "pypi-play-nspace-test"
+version = "1.0.0"
 authors = [
    { name="Luke Swanson", email="superscription58@gmail.com" }
 ]
-description = "A test package for playing with different features of Python packaging"
+description = "A subpackage of pypi-play for testing namespace package stuff"
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
