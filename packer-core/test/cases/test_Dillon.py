@@ -8,7 +8,7 @@
 import unittest
 from unittest import TestCase
 # import src.packer.Dillon
-from src.packer.Dillon import Dillon
+from src.packer.players.Dillon import Dillon
 
 class test_Handoff(TestCase):
     @classmethod

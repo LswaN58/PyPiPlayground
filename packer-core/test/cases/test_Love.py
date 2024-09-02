@@ -7,7 +7,7 @@
 
 import unittest
 from unittest import TestCase
-from src.packer.Love import Love
+from src.packer.players.Love import Love
 
 class test_Give(TestCase):
     @classmethod

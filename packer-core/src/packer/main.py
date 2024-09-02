@@ -1,5 +1,5 @@
-from packer.Love import Love
-from packer.Dillon import Dillon
+from packer.players.Love import Love
+from packer.players.Dillon import Dillon
 
 Love.Give()
 Dillon.Stats()
