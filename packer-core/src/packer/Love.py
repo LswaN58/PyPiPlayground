@@ -1,6 +1,8 @@
 """Simple test module for importing from another file within a package
 """
-from Dillon import Handoff
+from packer.Dillon import Dillon
 
-def Give():
-    Handoff(left=True)
+class Love:
+    @staticmethod
+    def Give():
+        Dillon.Handoff(left=True)

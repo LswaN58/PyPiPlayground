@@ -2,12 +2,16 @@
 """
 from importlib.resources import files
 
-def Handoff(left:bool):
-    if left:
-        print("Dillon takes the handoff to the left.")
-    else:
-        print("Dillon takes the handoff to the right.")
+class Dillon:
 
-def Stats():
-    stats_text = files("packer").joinpath("DillonStats.txt").read_text()
-    print(f"Stats for AJ Dillon:\n{stats_text}")
+    @staticmethod
+    def Handoff(left:bool):
+        if left:
+            print("Dillon takes the handoff to the left.")
+        else:
+            print("Dillon takes the handoff to the right.")
+
+    @staticmethod
+    def Stats():
+        stats_text = files("packer").joinpath("DillonStats.txt").read_text()
+        print(f"Stats for AJ Dillon:\n{stats_text}")
